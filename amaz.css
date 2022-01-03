@@ -1,0 +1,262 @@
+* {
+  margin: 0;
+  padding: 0;
+  flex-wrap: wrap;
+}
+.father-header {
+  display: flex;
+  background-color: rgb(35 47 62);
+  overflow-x: hidden;
+  position: fixed;
+  width: 100%;
+  transition: 0.6s;
+  z-index: 99999;
+}
+
+.bg img {
+  height: 80vh;
+  width: 100%;
+  margin-top: 40px;
+}
+.logo {
+  width: 100px;
+}
+.logo img {
+  margin: 5px;
+  height: 9vh;
+}
+.links {
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  padding: 25px;
+}
+.links a {
+  text-decoration: none;
+  padding: 15px;
+  font-size: 20px;
+  color: white;
+  transition: 1s;
+}
+.links a:hover {
+  color: black;
+  background-color: white;
+  border-radius: 20%;
+}
+.search {
+  width: 500px;
+  margin-left: auto;
+  display: inline;
+}
+.buy {
+  width: 120px;
+  margin-left: auto;
+  display: flex;
+  height: 4vh;
+  padding: 10px;
+  margin-top: -30px;
+  margin-right: -10px;
+}
+.search input {
+  margin-top: 20px;
+  height: 3vh;
+  width: 300px;
+}
+.buy h6 {
+  font-size: 12px;
+  width: 40px;
+  margin-top: -10px;
+  color: white;
+}
+.search .search1 {
+  padding: 4px;
+  background-color: rgb(55, 21, 227);
+  color: white;
+}
+.buy a {
+  color: white;
+}
+.buy p {
+  margin-left: 5px;
+}
+
+/* start two */
+.lab {
+  background-color: rgb(220, 217, 211);
+  display: flex;
+  justify-content: center;
+}
+.bord {
+  width: 350px;
+  background-color: white;
+  margin: 10px;
+  margin-top: -40px;
+  padding: 20px;
+  border-radius: 5%;
+}
+.bord img {
+  height: 20vh;
+}
+.bord h1 {
+  width: 300px;
+  font-size: 17px;
+  opacity: 0.6;
+}
+.bord h2 {
+  width: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+}
+.stars {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  width: 130px;
+}
+.stars a {
+  color: yellow;
+}
+.bord img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 15px;
+}
+.myButton {
+  background-color: #2424e3;
+  border-radius: 14px;
+  display: table;
+  cursor: pointer;
+  color: #f7f2f7;
+  font-family: Arial;
+  font-size: 17px;
+  padding: 14px 22px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #2f6627;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+}
+/* lable2 */
+.lab2 {
+  background-color: rgb(220, 217, 211);
+  display: flex;
+  justify-content: center;
+}
+.bord2 {
+  width: 350px;
+  background-color: white;
+  margin: 10px;
+  padding: 20px;
+  border-radius: 5%;
+}
+.bord2 img {
+  height: 20vh;
+}
+.bord2 h1 {
+  width: 300px;
+  font-size: 17px;
+  opacity: 0.6;
+}
+.bord2 h2 {
+  width: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+}
+.stars {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  width: 130px;
+}
+.stars a {
+  color: yellow;
+}
+.bord2 img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 15px;
+}
+.myButton {
+  background-color: #2424e3;
+  border-radius: 14px;
+  display: table;
+  cursor: pointer;
+  color: #f7f2f7;
+  font-family: Arial;
+  font-size: 17px;
+  padding: 14px 22px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #2f6627;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+}
+/* end  */
+.end {
+  background-color: rgb(220, 217, 211);
+  height: 15vh;
+}
+.end h2 {
+  width: 260px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.end a {
+  text-decoration: none;
+}
+/* media  */
+
+@media (min-width: 320px) and (max-width: 700px) {
+  * {
+    overflow-x: hidden;
+  }
+  .logo img {
+    margin: 5px;
+    height: 5vh;
+    margin-top: 15px;
+  }
+  .bg img {
+    height: 40vh;
+    width: 100%;
+  }
+  .links {
+    display: none;
+  }
+  .search {
+    width: 300px;
+  }
+  .search input {
+    width: 200px;
+    height: 3vh;
+    margin-left: -15px;
+  }
+  .buy {
+    margin-right: -50px;
+  }
+  .buy h6 {
+    font-size: 10px;
+  }
+  .bord {
+    width: 350px;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 5%;
+  }
+  .bord h1 {
+    width: 300px;
+  }
+  .bord2 {
+    width: 350px;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 5%;
+  }
+  .bord2 h1 {
+    width: 300px;
+  }
+}
